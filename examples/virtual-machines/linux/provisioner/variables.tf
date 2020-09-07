@@ -1,14 +1,14 @@
-variable "prefix" {
-  description = "The prefix which should be used for all resources in this example"
-  type = string
-  default = "sindhuja"
-}
+variable prefix {
+    description = "prefix"
+    type        = string
+    default     = "test"
+  }
 
-variable "location" {
-  description = "The Azure Region in which all resources in this example should be created."
-  type = string
-  default = "East US"
-}
+variable location {
+    description = "location"
+    type        = string
+    default     = "East US"
+  }
 
 variable subscription_id {
     description = "subscription_id"
