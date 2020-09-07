@@ -1,3 +1,13 @@
+
+variable "prefix" {}
+variable "location" {}
+variable "subscription_id" {}
+variable "tenant_id" {}
+variable "client_secret" {}
+variable "client_id" {}
+
+
+
 provider "azurerm" {
   subscription_id = var.subscription_id
   tenant_id       = var.tenant_id
